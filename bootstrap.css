@@ -1,0 +1,225 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  text-align: center;
+}
+
+h1,h2,p,button, .nav-item{
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  height: 5rem 0;
+  background-color: black;
+  color: #fff;
+}
+
+i{
+  color: #142850;
+}
+
+.zoho-logo-skills{
+  width: 3rem;
+  height: auto;
+}
+
+.skill-table{
+  margin: 3rem 0 0;
+}
+
+.container-fluid{
+  padding: 5rem 10rem;
+}
+
+.section-heading{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #142850;
+}
+
+.description{
+  font-size: 1.5rem;
+  margin: 2rem auto;
+}
+
+.hover-color:hover{
+  color: green;
+}
+
+.hover-color-skills:hover{
+  color: white;
+}
+
+.body-carousel{
+  padding: 0 10rem 5rem;;
+}
+
+/* Navbar */
+.nav-link{
+  margin: 0 0 0 1rem;
+  font-weight:600;
+  font-size: 1rem;
+}
+
+.navbar-only{
+  padding: 0 160px;
+  background-color: #fff;
+  width: auto;
+  height: auto;
+}
+
+/* Title section */
+
+#title{
+  background-color: #fff;
+}
+
+.title-section{
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), #00909e);
+  height: auto;
+  width: auto;
+}
+
+.cursive-font{
+  color: #142850;
+  font-family: 'Pacifico', cursive;
+  font-size: 4.5rem;
+}
+
+.brief-welcome{
+  text-align: left;
+  line-height: 1.5;
+  padding: auto;
+  margin: 0 auto
+}
+
+.learn-more{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #142850;
+}
+
+.dp{
+  width: 25rem;
+  height: auto;
+  transform: rotate(10deg);
+  position: absolute;
+  z-index: 0;
+  right: 20%;
+}
+
+/* About me */
+
+#about-me{
+  background-color: #fff;
+}
+
+.about-me{
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.about-section-img{
+  width: 60%;
+  margin: 1rem 0;
+  position: relative;
+}
+
+/* Skills */
+
+#skills{
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), 	#00909e);
+  padding-top: 5rem;
+}
+
+.skill-subheading{
+  background-color: #142850;
+  color: #dae1e7;
+  height: auto;
+  padding: 1rem;
+}
+
+.column-one{
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.column-two{
+  text-align: left;
+  font-size: 2rem;
+}
+
+/* Career */
+
+#career{
+  background-color: #fff;
+}
+
+.zoho-logo{
+  width: 10rem;
+}
+
+.job-description{
+  margin: 0;
+}
+
+.companylogo-tenure{
+  margin-bottom: 2rem;
+}
+
+.job-description-div{
+  text-align: left;
+}
+
+.bullet-points{
+  font-size: 1.5rem;
+}
+
+
+/* Education */
+
+#education{
+  background-color: #fff;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0),	#00909e);
+    padding-top: 5rem;
+}
+
+/* Contact */
+
+.contact-me-icon{
+  font-size: 3rem;
+  margin: 2rem 1rem;
+  color: black;
+}
+
+.contact-me-icon:hover{
+  color: green;
+}
+
+
+@media (max-width: 992px){
+
+  .dp{
+    width: 30rem;
+    text-align: center;
+    position: static;
+    transform: rotate(0);
+  }
+  .brief-welcome{
+    text-align: center;
+  }
+  .cursive-font{
+    font-size: 4rem;
+  }
+  .profile-photo{
+    margin: 4rem 0 0;
+  }
+  .about-section-img{
+    width: 100%;
+
+}
