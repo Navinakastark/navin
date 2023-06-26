@@ -1,103 +1,364 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+
 <head>
-    <title>Page Layout</title>
-    <style>
-        .head1 {
-            font-size: 40px;
-            color: #009900;
-            font-weight: bold;
-        }
- 
-        .head2 {
-            font-size: 17px;
-            margin-left: 10px;
-            margin-bottom: 15px;
-        }
- 
-        body {
-            margin: 0 auto;
-            background-position: center;
-            background-size: contain;
-        }
- 
-        .menu {
-            position: sticky;
-            top: 0;
-            background-color: #009900;
-            padding: 10px 0px 10px 0px;
-            color: white;
-            margin: 0 auto;
-            overflow: hidden;
-        }
- 
-        .menu a {
-            float: left;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 20px;
-        }
- 
-        .menu-log {
-            right: auto;
-            float: right;
-        }
- 
-        footer {
-            width: 100%;
-            bottom: 0px;
-            background-color: #008499;
-            color: #fff;
-            position: absolute;
-            padding-top: 20px;
-            padding-bottom: 50px;
-            text-align: center;
-            font-size: 30px;
-            font-weight: bold;
-        }
- 
-        .body_sec {
-            margin-left: 20px;
-        }
-    </style>
+
+  <meta charset="utf-8">
+  <title>Bhargav's Corner</title>
+
+  <!-- Bootstrap CDN  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Stylesheet Link -->
+  <link rel="stylesheet" href="bootstrap.css">
+
+  <!-- Google Font CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+
+  <script src="https://kit.fontawesome.com/a33a12041b.js" crossorigin="anonymous"></script>
+
 </head>
- 
+
 <body>
- 
-    <!-- Header Section -->
-    <header>
-        <div class="head1">
-              NAVIN KUMAR S
-          </div>
-        <div class="head2">
-              Aspiring Fron-End Developer
-          </div>
-    </header>
- 
-    <!-- Menu Navigation Bar -->
-    <nav class="menu">
-        <a href="#home">HOME</a>
-        <a href="#news">SKILLS</a>
-        <a href="#notification">
-              PROJECTS
-          </a>
-         <a href="#news">CERTIFICATIONS</a>
-        <a href="#news">CONTACT ME</a>
-        <div class="menu-log">
-            <a href="#login">LOGIN</a>
+
+  <section id="title">
+
+    <!-- Navbar -->
+
+    <div class="navbar-only">
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <i class="navbar-brand">
+          <img src="Images\logo-image.png" width="40rem" alt="" loading="lazy">
+        </i>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#career">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-    </nav>
- 
-    <!-- Body section -->
-    <main class="body_sec">
-        <section id="Content">
-            <h3>Content section</h3>
-        </section>
-    </main>
- 
-    <!-- Footer Section -->
-    <footer>Footer Section</footer>
+      </nav>
+    </div>
+
+    <!-- Title-section -->
+
+    <div class="container-fluid title-section">
+      <div class="row">
+        <div class="col-lg-8 brief-welcome">
+          <h2 class="cursive-font">Hey there!</h2>
+          <h1 class="cursive-font">I'm Bhargav.</h1>
+          <br>
+          <p class="learn-more"><em><strong>Welcome to my profile.</strong></em></p>
+          <br>
+          <!--
+          <p class="learn-more"><em><strong>Know me better by clicking the button below.</strong></em></p>
+          <br>
+          <a href="#about-me">
+            <button type="button" class="btn btn-dark btn-lg" name="button"> Let's get started!</button>
+          </a>
+          -->
+        </div>
+        <div class="col-lg-4 profile-photo">
+          <img src="Images\polariod frame.png" class="dp" alt="Bhargav's Profile Picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About me -->
+
+  <section id="about-me">
+    <div class="container-fluid about-me">
+      <h1 class="section-heading">About me</h1>
+      <br>
+      <p class="description">I came across this life-altering saying, <em><strong>"If it's both terrifying and amazing, then you should definitely pursue it"</strong></em> which has become my mantra and motivation for learning to code.
+        <strong>#LearningEveryday</strong></p>
+      <p class="description">I'm an engineering graduate and an ex-content marketer at Zoho Corporation. Working on content and collaborating with an awesome team sure was fun, but I felt something missing.
+        <strong>It was during that span of 11 months that I realized what I was most interested in was a technical role—programming—something I feared in the beginning.</strong> So I decided to take a risk (given the whole COVID-19 situation) and quit my job to upskill myself for the position I wished to pursue—a software developer.</p>
+      <p class="description"><strong>And so my quest begins to conquer the art of programming, begining with web development. <em>#OneStepAtATime</em></strong></p>
+      <br>
+      <div class="row">
+        <div class="col-lg-12">
+          <a href='https://www.freepik.com/vectors/business'>
+            <img class="about-section-img" src="Images\content writer to programmer.png" alt="Business vector created by macrovector_official - www.freepik.com">
+          </a>
+          <br>
+          <p>From content marketer to aspiring programmer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills">
+    <h1 class="section-heading">Skills</h1>
+
+    <div id="carouselskills" class="carousel slide container-fluid" data-ride="carousel" data-interval="4000" data-keyboard="true" data-touch="true">
+
+      <!-- Carousel Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carouselskills" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselskills" data-slide-to="1"></li>
+        <li data-target="#carouselskills" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Carousel slide -->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="skill-subheading">Programming</h2>
+          <div class="row skill-table">
+            <div class="col-sm-6 column-one">
+              <p>HTML 5</p>
+              <p>CSS 3</p>
+              <p>Bootstrap 4</p>
+              <p>JavaScript</p>
+              <p>NodeJS</p>
+            </div>
+            <div class="col-sm-6 column-two">
+              <p><i class="fab fa-html5 hover-color-skills"></i></p>
+              <p><i class="fab fa-css3-alt hover-color-skills"></i></p>
+              <p><i class="fab fa-bootstrap hover-color-skills"></i></p>
+              <p><i class="fab fa-js hover-color-skills"></i></p>
+              <p><i class="fab fa-node-js hover-color-skills"></i></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="skill-subheading">Productivity</h2>
+          <div class="row skill-table">
+            <div class="col-sm-6 column-one">
+              <p>Photoshop</p>
+              <p>Illustrator</p>
+              <p>MS Office</p>
+              <p>Zoho One suite</p>
+              <p>GitHub</p>
+            </div>
+            <div class="col-sm-6 column-two">
+              <p><i class="fas fa-check-circle hover-color-skills"></i></p>
+              <p><i class="fas fa-check-circle hover-color-skills"></i></p>
+              <p><i class="fas fa-check-circle hover-color-skills"></i></i></p>
+              <p><i class="fas fa-check-circle hover-color-skills"></i></p>
+              <p><i class="fas fa-check-circle hover-color-skills"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="skill-subheading">Notable Mentions</h2>
+          <div class="row skill-table">
+            <div class="col-sm-6  column-one">
+              <p>Copywrting</p>
+              <p>Graphics designing</p>
+              <p>Photography</p>
+              <p class="" style="visibility:hidden;">MS Word</p>
+              <p style="visibility:hidden;">MS Poweroint</p>
+            </div>
+            <div class="col-sm-6 column-two">
+              <p><i class="fas fa-pen-nib hover-color-skills"></i></p>
+              <p><i class="fas fa-drafting-compass hover-color-skills"></i></p>
+              <p><i class="fas fa-camera-retro hover-color-skills"></i></p>
+              <p><i href="" class="" alt="Placeholder" style="visibility:hidden;"></i></p>
+              <p><i href="" class="" alt="Placeholder" style="visibility:hidden;"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Control buttons -->
+
+      <a class="carousel-control-prev" href="#carouselskills" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselskills" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Career -->
+
+  <section id="career">
+    <div class="container-fluid">
+      <h1 class="section-heading">Career</h1>
+      <br>
+      <p class="description"><strong>I landed my first ever job at Zoho Corporation, as a content marketer for the company's centralised event management team.</strong></p>
+      <br>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-12 companylogo-tenure">
+          <img src="Images\zoho-logo-512px.png" class="zoho-logo" alt="">
+          <br>
+          <br>
+          <h5><strong>Event Executive</strong></h5>
+          <h6>APAC & A/NZ</h6>
+          <h6><u>Jun '19-Jul '20</u></h6>
+        </div>
+
+        <div class="col-lg-8 col-md-12 job-description-div">
+          <p class="description job-description">Our team handled events in the APAC and A/NZ region, like user conferences, webinars, participation in third-party tradeshows, and other product related events.
+            I was deeply involved in all event management operations, thereby gaining immense exposure in the domain as a result. <strong>My resposibilites at work were:</strong></p>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-8" style="text-align: left;">
+          <p class="bullet-points"><i class="fas fa-check-circle hover-color"></i> Copywriting</p>
+          <p class="bullet-points"><i class="fas fa-check-circle hover-color"></i> Email marketing</p>
+          <p class="bullet-points"><i class="fas fa-check-circle hover-color"></i> Social media marketing</p>
+          <p class="bullet-points"><i class="fas fa-check-circle hover-color"></i> Blogposting</p>
+          <p class="bullet-points"><i class="fas fa-check-circle hover-color"></i> Event webpage content</p>
+          <p class="bullet-points"><i class="fas fa-check-circle hover-color"></i> Brochure and handout - content and design</p>
+          <p class="bullet-points"><i class="fas fa-check-circle hover-color"></i> Basic graphic design and video editing</p>
+        </div>
+      </div>
+      <p class="description"><strong>In addition to working for the event's team, I've also collaborated and assisted Zoho One and Zoho ShowTime product teams with their webinars, workshops, blogposts, and social media.</strong></p>
+      <br>
+      <h2 class="skill-subheading">Here's a peek at some of my featured work.</h2>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide body-carousel" data-ride="carousel" data-keyboard="true" data-touch="true" data-interval="4000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://www.zoho.com/blog/general/the-zoho-event-experience-our-transition-from-physical-to-virtual-events.html"><img src="https://blog.zoho.com/wp-content/uploads/2020/06/FB_Ln_IG.png" width="640px" heigh="360px" alt=""></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.zoho.com/blog/showtime/the-sudden-rise-of-virtual-classroom-software.html"><img src="https://blog.zoho.com/wp-content/uploads/2020/04/now-01.png" width="640px" heigh="360px" alt=""></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.zoho.com/blog/zoholics/zoholics-2019-what-to-look-forward-to.html"><img src="https://blog.zoho.com/wp-content/uploads/2019/08/Zoholics-Blog-Bnr-AUG-NOV-2019-3.jpg" width="640px" heigh="360px" alt=""></a>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p><i class="fas fa-chevron-circle-left"></i> Swipe and click <i class="fas fa-chevron-circle-right"></i></p>
+
+  </section>
+
+  <!-- Education -->
+
+  <section id="education">
+    <div class="container-fluid">
+
+      <h1 class="section-heading">Education</h1>
+
+    </div>
+    <div id="carouseleducation" class="carousel slide body-carousel" data-ride="carousel" data-interval="3000" data-keyboard="true" data-touch="true">
+
+      <!-- Carousel Indicators -->
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouseleducation" data-slide-to="0" class="active"></li>
+        <li data-target="#carouseleducation" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Carousel slide -->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="skill-subheading">Undergraduation</h2>
+          <div class="row skill-table">
+            <div class="col-sm-4 column-one">
+              <a href="https://www.rajalakshmi.org/"><a title="Sarath146 / CC BY (https://creativecommons.org/licenses/by/2.0)" href="https://commons.wikimedia.org/wiki/File:Rajalakshmi_Engineering_College_(REC)_Chennai_Logo.jpg"><img width="128"
+                    alt="Rajalakshmi Engineering College (REC) Chennai Logo"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Rajalakshmi_Engineering_College_%28REC%29_Chennai_Logo.jpg/128px-Rajalakshmi_Engineering_College_%28REC%29_Chennai_Logo.jpg"></a></a>
+            </div>
+            <div class="col-sm-8 column-two">
+              <p>RAJALAKSHMI ENGINEERING COLLEGE</p>
+              <p><strong>B.E Computer Science and Engineering</strong></p>
+              <p>2015 to 2019</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="skill-subheading">Schooling</h2>
+          <div class="row skill-table">
+            <div class="col-sm-4 column-one">
+              <a href="http://www.stjohnsatnagar.com/"><img src="http://www.stjohnsatnagar.com/wp-content/uploads/2016/08/logo.jpg" data-alt-logo="http://www.stjohnsatnagar.com/wp-content/themes/wplms/assets/images/logo.png"
+                  alt="St. John's matriculation hr. sec. school"></a>
+            </div>
+            <div class="col-sm-8 column-two">
+              <p>St. John's MAT.HR.SEC.School, AT Nagar</p>
+              <p><strong>Class I to XII</strong></p>
+              <p>2003 to 2015</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Control buttons -->
+
+      <a class="carousel-control-prev" href="#carouseleducation" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouseleducation" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact">
+    <div class="container-fluid">
+      <h1 class="section-heading">Contact</h1>
+      <br>
+      <p class="description">Sure, I would love to get in touch with you. Chime me through any of the mediums below.</p>
+      <a href="https://wa.me/+919962330011"><i class="fab fa-whatsapp-square contact-me-icon"></i></a> <a href="mailto:iambhargav@yahoo.com?subject=Hey Bhargav! I am contacting you from your website."><i
+          class="fas fa-envelope contact-me-icon"></i></a> <a href="https://www.linkedin.com/in/bhargav-p-637103185"><i class="fab fa-linkedin contact-me-icon"></i></a> <a href="https://github.com/1BHARGAV" target="_blank"><i class="fab fa-github-square contact-me-icon"></i></i></a>
+      <p class="description"><strong>Looking forward to us connecting!</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    Webpage made using HTML, CSS, and Bootstrap. Future updates incoming! 😁
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
